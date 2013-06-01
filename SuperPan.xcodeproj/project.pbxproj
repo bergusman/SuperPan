@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD07B353175A033200C4C930 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07B352175A033200C4C930 /* UIKit.framework */; };
+		AD07B355175A033200C4C930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07B354175A033200C4C930 /* Foundation.framework */; };
+		AD07B357175A033200C4C930 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD07B356175A033200C4C930 /* CoreGraphics.framework */; };
+		AD07B35D175A033200C4C930 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD07B35B175A033200C4C930 /* InfoPlist.strings */; };
+		AD07B35F175A033200C4C930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07B35E175A033200C4C930 /* main.m */; };
+		AD07B363175A033200C4C930 /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07B362175A033200C4C930 /* VBAppDelegate.m */; };
+		AD07B365175A033200C4C930 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07B364175A033200C4C930 /* Default.png */; };
+		AD07B367175A033200C4C930 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07B366175A033200C4C930 /* Default@2x.png */; };
+		AD07B369175A033200C4C930 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD07B368175A033200C4C930 /* Default-568h@2x.png */; };
+		AD07B36C175A033200C4C930 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD07B36A175A033200C4C930 /* MainStoryboard.storyboard */; };
+		AD07B36F175A033200C4C930 /* VBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD07B36E175A033200C4C930 /* VBViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD07B34F175A033200C4C930 /* SuperPan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperPan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD07B352175A033200C4C930 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD07B354175A033200C4C930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD07B356175A033200C4C930 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD07B35A175A033200C4C930 /* SuperPan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperPan-Info.plist"; sourceTree = "<group>"; };
+		AD07B35C175A033200C4C930 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD07B35E175A033200C4C930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD07B360175A033200C4C930 /* SuperPan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperPan-Prefix.pch"; sourceTree = "<group>"; };
+		AD07B361175A033200C4C930 /* VBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
+		AD07B362175A033200C4C930 /* VBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
+		AD07B364175A033200C4C930 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AD07B366175A033200C4C930 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD07B368175A033200C4C930 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD07B36B175A033200C4C930 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AD07B36D175A033200C4C930 /* VBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBViewController.h; sourceTree = "<group>"; };
+		AD07B36E175A033200C4C930 /* VBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD07B34C175A033200C4C930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD07B353175A033200C4C930 /* UIKit.framework in Frameworks */,
+				AD07B355175A033200C4C930 /* Foundation.framework in Frameworks */,
+				AD07B357175A033200C4C930 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD07B346175A033200C4C930 = {
+			isa = PBXGroup;
+			children = (
+				AD07B358175A033200C4C930 /* SuperPan */,
+				AD07B351175A033200C4C930 /* Frameworks */,
+				AD07B350175A033200C4C930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD07B350175A033200C4C930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD07B34F175A033200C4C930 /* SuperPan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD07B351175A033200C4C930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD07B352175A033200C4C930 /* UIKit.framework */,
+				AD07B354175A033200C4C930 /* Foundation.framework */,
+				AD07B356175A033200C4C930 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD07B358175A033200C4C930 /* SuperPan */ = {
+			isa = PBXGroup;
+			children = (
+				AD07B361175A033200C4C930 /* VBAppDelegate.h */,
+				AD07B362175A033200C4C930 /* VBAppDelegate.m */,
+				AD07B36A175A033200C4C930 /* MainStoryboard.storyboard */,
+				AD07B36D175A033200C4C930 /* VBViewController.h */,
+				AD07B36E175A033200C4C930 /* VBViewController.m */,
+				AD07B359175A033200C4C930 /* Supporting Files */,
+			);
+			path = SuperPan;
+			sourceTree = "<group>";
+		};
+		AD07B359175A033200C4C930 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD07B35A175A033200C4C930 /* SuperPan-Info.plist */,
+				AD07B35B175A033200C4C930 /* InfoPlist.strings */,
+				AD07B35E175A033200C4C930 /* main.m */,
+				AD07B360175A033200C4C930 /* SuperPan-Prefix.pch */,
+				AD07B364175A033200C4C930 /* Default.png */,
+				AD07B366175A033200C4C930 /* Default@2x.png */,
+				AD07B368175A033200C4C930 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD07B34E175A033200C4C930 /* SuperPan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD07B372175A033200C4C930 /* Build configuration list for PBXNativeTarget "SuperPan" */;
+			buildPhases = (
+				AD07B34B175A033200C4C930 /* Sources */,
+				AD07B34C175A033200C4C930 /* Frameworks */,
+				AD07B34D175A033200C4C930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperPan;
+			productName = SuperPan;
+			productReference = AD07B34F175A033200C4C930 /* SuperPan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD07B347175A033200C4C930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vitaliy Berg";
+			};
+			buildConfigurationList = AD07B34A175A033200C4C930 /* Build configuration list for PBXProject "SuperPan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD07B346175A033200C4C930;
+			productRefGroup = AD07B350175A033200C4C930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD07B34E175A033200C4C930 /* SuperPan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD07B34D175A033200C4C930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD07B35D175A033200C4C930 /* InfoPlist.strings in Resources */,
+				AD07B365175A033200C4C930 /* Default.png in Resources */,
+				AD07B367175A033200C4C930 /* Default@2x.png in Resources */,
+				AD07B369175A033200C4C930 /* Default-568h@2x.png in Resources */,
+				AD07B36C175A033200C4C930 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD07B34B175A033200C4C930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD07B35F175A033200C4C930 /* main.m in Sources */,
+				AD07B363175A033200C4C930 /* VBAppDelegate.m in Sources */,
+				AD07B36F175A033200C4C930 /* VBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD07B35B175A033200C4C930 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD07B35C175A033200C4C930 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD07B36A175A033200C4C930 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD07B36B175A033200C4C930 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD07B370175A033200C4C930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD07B371175A033200C4C930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD07B373175A033200C4C930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperPan/SuperPan-Prefix.pch";
+				INFOPLIST_FILE = "SuperPan/SuperPan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD07B374175A033200C4C930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperPan/SuperPan-Prefix.pch";
+				INFOPLIST_FILE = "SuperPan/SuperPan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD07B34A175A033200C4C930 /* Build configuration list for PBXProject "SuperPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD07B370175A033200C4C930 /* Debug */,
+				AD07B371175A033200C4C930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD07B372175A033200C4C930 /* Build configuration list for PBXNativeTarget "SuperPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD07B373175A033200C4C930 /* Debug */,
+				AD07B374175A033200C4C930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD07B347175A033200C4C930 /* Project object */;
+}
