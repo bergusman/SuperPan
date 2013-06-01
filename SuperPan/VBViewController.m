@@ -32,22 +32,28 @@
         self.greenView.center = center;
         
         // Restrict
+        translation = CGPointZero;
+        
         CGRect frame = self.greenView.frame;
         if (frame.origin.x < 0) {
+            translation.x = frame.origin.x;
             frame.origin.x = 0;
         }
         if (frame.origin.y < 0) {
+            translation.y = frame.origin.y;
             frame.origin.y = 0;
         }
         if (frame.origin.x + frame.size.width > self.redView.frame.size.width) {
+            translation.x = (frame.origin.x + frame.size.width) - self.redView.frame.size.width;
             frame.origin.x = self.redView.frame.size.width - frame.size.width;
         }
         if (frame.origin.y + frame.size.height > self.redView.frame.size.height) {
+            translation.y = (frame.origin.y + frame.size.height) - self.redView.frame.size.height;
             frame.origin.y = self.redView.frame.size.height - frame.size.height;
         }
         self.greenView.frame = frame;
         
-        [sender setTranslation:CGPointZero inView:self.greenView];
+        [sender setTranslation:translation inView:self.greenView];
     }
 }
 
