@@ -10,20 +10,45 @@
 
 @interface VBViewController ()
 
+@property (weak, nonatomic) IBOutlet UIView *redView;
+@property (weak, nonatomic) IBOutlet UIView *greenView;
+
 @end
 
 @implementation VBViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)didPanWith:(UIPanGestureRecognizer *)sender {
+    if (sender.state == UIGestureRecognizerStateChanged) {
+        CGPoint translation = [sender translationInView:self.greenView];
+        
+        // Move
+        CGPoint center = self.greenView.center;
+        center.x += translation.x;
+        center.y += translation.y;
+        self.greenView.center = center;
+        
+        // Restrict
+        CGRect frame = self.greenView.frame;
+        if (frame.origin.x < 0) {
+            frame.origin.x = 0;
+        }
+        if (frame.origin.y < 0) {
+            frame.origin.y = 0;
+        }
+        if (frame.origin.x + frame.size.width > self.redView.frame.size.width) {
+            frame.origin.x = self.redView.frame.size.width - frame.size.width;
+        }
+        if (frame.origin.y + frame.size.height > self.redView.frame.size.height) {
+            frame.origin.y = self.redView.frame.size.height - frame.size.height;
+        }
+        self.greenView.frame = frame;
+        
+        [sender setTranslation:CGPointZero inView:self.greenView];
+    }
 }
 
 @end
